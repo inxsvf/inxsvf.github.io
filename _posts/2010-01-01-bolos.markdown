@@ -32,7 +32,7 @@ Every enemy attack makes the player fatter and slower <a href="#attack" class="r
 </figure>
 
 <figure>
-    <img id="exercise" class="gif" src="/imgs/bolos/ropegif.gif" alt="">
+    <img id="exercise" class="gif" src="/imgs/bolos/rope.gif" alt="">
     <figcaption><strong>Fig. 3</strong>  When the player grabs the item “rope“, he can exercise and lose weight.</figcaption>
 </figure>
 

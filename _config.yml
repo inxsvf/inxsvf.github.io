@@ -29,7 +29,7 @@ twitter_username: if3rreira
 linkedin_username:  iferreira
 
 # Build settings
-theme: jekyll-theme-clean-blog
+# theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
