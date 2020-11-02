@@ -1,0 +1,171 @@
+// Styling for the post page
+
+.post-footer {
+    margin: 100px 0;
+}
+
+.post-preview {
+    margin-bottom: 50px;
+
+    a:hover {
+        text-decoration: none;
+        h4, p {
+            color: #0085A1;
+        }
+    }
+}
+
+
+.featured-post{
+    margin-bottom: 50px;
+}
+
+.card-text {
+    padding-bottom: 0.3rem;
+    margin: 0;
+}
+
+.card-tags {
+    color: $gray-600;
+    font-size: 80%;
+    font-weight: 200;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-cstm {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 30px 0;
+    @media only screen and (min-width: 768px) {
+        border: none;
+        margin: 70px 0;
+    }
+    
+    img {
+        margin: 5%;
+        max-width: 90%;
+    }
+}
+
+
+span.center {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.lg-img {
+    @media only screen and (min-width: 768px) {
+        margin: 0 -70px;
+        max-width: 120%;
+    }
+}
+
+
+.md-img {
+    @media only screen and (min-width: 768px) {
+        max-width: 70%;
+      }
+}
+
+a.reversefootnote {
+    text-decoration: none;
+}
+
+.post {
+    color: $gray-800;
+    ul {
+        margin-top: -25px;
+        @media (min-width: 768px)
+        {
+            margin-top: -35px;
+        }
+    }
+    ul, ol {
+        font-size: 18px;
+        line-height:1.5;
+    
+        @media(min-width:768px) {
+            font-size:20px;
+            line-height:1.6;
+        }
+    }
+    .li-highlight {
+        font-style: italic;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        
+        @media(min-width:768px) {
+            margin-top: 50px;
+        }
+    }
+
+    .ref {
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: $primary;
+        &::before {
+            content: '(Fig. ';
+        }
+        &::after {
+            content: ')';
+        }
+    }
+
+    figure {
+        text-align: center;
+        margin: 30px 0;
+        
+        @media(min-width:768px) {
+            margin: 70px 0;
+        }
+
+    }
+
+    figcaption {
+        color: $primary;
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 5px;
+
+        @media(min-width:768px) {
+            margin-top: 10px;
+        }
+
+        strong {
+            font-variant-caps: unset;
+            font-size: 1rem;
+        }
+
+        a {
+            color: $primary;
+            text-decoration: underline;
+            &:focus, &:hover {
+                color: #333;
+            }
+        }
+    }
+
+    .footnotes {
+        ol, ul, p {
+            font-size: 14px;
+            color: $gray-600;
+        }
+        ol, ul {
+            padding-inline-start: 15px;
+        }
+    }
+}

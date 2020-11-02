@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<!-- Page Header --> 
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <p class="meta">
+            {% if page.type != "case-study" %}
+              {{ page.company}} &middot; {{ page.date | date: '%b, %Y' }}
+              <!-- {% include read_time.html content=page.content %} -->
+            {% endif %}
+            </p>
+            <p>{% for tag in page.tags limit : 5 %}
+              <span class="badge badge-pill badge-primary">{{tag}}</span>
+            {% endfor %}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto post">
+
+        {{ content }}
+
+        <div class="clearfix post-footer">
+          {% if page.next.url %}
+          <a class="btn btn-primary float-left" 
+            href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">
+            <i class="fas fa-arrow-left"></i>Previous <span class="d-none d-md-inline">Project</span>
+          </a>
+          {% endif %}
+
+          {% if page.previous.url %}
+          <a class="btn btn-primary float-right" 
+            href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">
+            Next <span class="d-none d-md-inline">Project</span><i class="fas fa-arrow-right"></i>
+          </a>
+          {% endif %}
+
+        </div>
+
+        <hr/>
+
+      </div>
+    </div>
+  </div>

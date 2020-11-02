@@ -1,0 +1,46 @@
+
+
+@mixin primary-font() {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+@mixin secondary-font() {
+    font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* + + + + */
+@-webkit-keyframes pulse_bg {
+    0% {background-color: $blue;  }
+    20% {background-color: $indigo;}
+    40% {background-color: $blue;  }
+    60% {background-color: $cyan;  }
+    80% {background-color: $teal;  }
+    100% {background-color: $cyan;  }
+}
+
+@-moz-keyframes pulse_bg {
+    0% {background-color: $blue;  }
+    20% {background-color: $indigo;}
+    40% {background-color: $blue;  }
+    60% {background-color: $cyan;  }
+    80% {background-color: $teal;  }
+    100% {background-color: $cyan;  }
+}
+
+@-o-keyframes pulse_bg {
+    0% {background-color: $blue;  }
+    20% {background-color: $indigo;}
+    40% {background-color: $blue;  }
+    60% {background-color: $cyan;  }
+    80% {background-color: $teal;  }
+    100% {background-color: $cyan;  }
+}
+
+@keyframes pulse_bg {
+    0% {background-color: $blue;  }
+    20% {background-color: $indigo;}
+    40% {background-color: $blue;  }
+    60% {background-color: $cyan;  }
+    80% {background-color: $teal;  }
+    100% {background-color: $cyan;  }
+}
+    

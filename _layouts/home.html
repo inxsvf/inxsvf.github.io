@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+<header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <div class="profile-image" style="background-image: url('../imgs/if.jpeg')"></div>
+            <h1>Hello, I'm <strong>Inês</strong></h1>
+            <p>I’m an experienced, human focused and business aligned <strong>Developer</strong> turned <strong>Designer</strong>, drawn by good ideas and challenges.
+              I use my research, design, tech and communication skills to design experiences that simplify processes and make <strong>useful</strong>, <strong>usable</strong> and <strong>satisfying</strong> products.</p>
+            <a href="https://www.dropbox.com/s/7blonghzf0z5rfw/iferreira_cv.pdf" class="btn btn-link">
+                <i class="fab fa-dropbox"></i>View Resume
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <article class="featured-post">
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                          <img class="card-img"
+                          src="../imgs/soa.jpg"
+                          alt="The beautiful MDN logo.">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                          <h4 class="card-title">Self-Order App</h4>
+                          <p class="card-text">From Concept to Prototype</p>
+                          <p class="card-tags">Mobile App &middot; User Research &middot; Information Architecture</p>
+                          <a class="btn btn-secondary" href="https://docs.google.com/presentation/d/1I-TtQUzkzB1zT7MBC7ITj-T-d9MVEIJOoF5ZW1Pd7sE/edit#slide=id.g6b8df46747_0_10">
+                            <i class="fab fa-google-drive"></i>Read Case Study</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </article>
+        
+        <div class="row row-cols-1 row-cols-md-2">
+          {% for post in site.posts limit : 5 %}
+            {% include post-preview.html %}
+          {% endfor %}
+        </div>
+<br/>
+        <hr/>
+      </div>
+    </div>
+  </div>

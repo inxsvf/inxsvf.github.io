@@ -1,0 +1,53 @@
+
+header.masthead {
+  -webkit-animation: pulse_bg 30s infinite alternate;
+  -moz-animation: pulse_bg 30s infinite alternate;
+  -o-transition: pulse_bg 30s infinite alternate;
+  transition: pulse_bg 30s infinite alternate;
+  background-color: #000;
+  .overlay {
+    // add to masthead: <div class="overlay"></div>
+  }
+  .page-heading,
+  .post-heading,
+  .site-heading {
+    padding: 100px 0 25px;
+    color: white;
+    @media only screen and (min-width: 768px) {
+      padding: 80px 0 50px;
+    }
+  }
+  h1 {
+      font-size: 1.5em !important;
+      font-weight: normal;
+      text-transform: uppercase;
+      font-weight:700;
+      letter-spacing: 0.04em;
+  }
+  .profile-image  {
+      display: block;
+      width: 120px;
+      height: 120px;
+      margin: auto;
+      margin-bottom: 20px;
+      background: #E6E7ED;
+      border-radius: 60px;
+      -moz-border-radius: 60px;
+      -webkit-border-radius: 60px;
+      background-position:50% 50%;
+      background-repeat:no-repeat;
+      background-size: cover;
+  }
+  .page-heading {
+    h1 {
+      text-transform: none;
+    }
+    a {
+      font-size: 1rem;
+      color: $white;
+    }
+  }
+  .post-heading h2 {
+    text-transform: none;
+  }
+}
