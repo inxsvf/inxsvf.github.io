@@ -1,0 +1,40 @@
+<!-- Footer -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+                {% if site.email %}
+                <li class="list-inline-item">
+                      <a class="btn btn-secondary" href="mailto:{{ site.email | encode_email }}">
+                          <i class="fas fa-envelope fa-fw"></i>
+                          <span class="network-name">E-mail</span>
+                      </a>
+                  </li>
+                {% endif %}
+                {% if site.linkedin_username %}
+                <li class="list-inline-item">
+                        <a class="btn btn-secondary" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                          <i class="fab fa-linkedin fa-fw"></i>
+                          <span class="network-name">Linkedin</span>
+                      </a>
+                  </li>
+                {% endif %}
+                {% if site.twitter_username %}
+                  <li class="list-inline-item">
+                      <a class="btn btn-secondary" href="https://twitter.com/{{ site.twitter_username }}">
+                          <i class="fab fa-twitter fa-fw"></i>
+                          <span class="network-name">Twitter</span>
+                      </a>
+                  </li>
+                {% endif %}
+        </ul>
+        <br/>
+        <p class="copyright text-muted">Based on <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" alt="" target="_blank">Clean Blog Theme</a> from <a href="https://startbootstrap.com" alt="" target="_blank">Start Bootsrap</a></p>
+        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

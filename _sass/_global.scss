@@ -1,0 +1,122 @@
+
+body {
+    @include primary-font;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    @include secondary-font;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    margin:0 0 25px;
+    font-size: 18px;
+    line-height:1.5;
+
+    @media(min-width:768px) {
+        margin:0 0 35px;
+        font-size:20px;
+        line-height:1.6;
+    }
+}
+
+img {
+    max-width:100%;
+    &.gif {
+        height: 3rem;
+    }
+    @media(min-width:768px) {
+        &.gif {
+            height: 5rem;
+        }
+    }
+}
+
+strong {
+    font-variant-caps: all-petite-caps;
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+sup a {
+    text-decoration: none;
+    &:hover, &focus {
+        text-decoration: none;
+    }
+}
+
+.btn > i {
+    padding: 0 5px;
+}
+
+.btn-link,
+.btn-primary,
+.btn-secondary,
+.badge-primary {
+    color: $gray-900;
+	text-transform:uppercase;
+    @include secondary-font;
+	font-weight:400;
+	font-size:12px;
+}
+
+.btn-link {
+    padding: 0;
+    text-decoration: none;
+    &:focus,
+    &:hover {
+        text-decoration: underline !important;
+        color: $primary;
+    }
+}
+
+.btn-primary {
+    background-color: $white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 20px 5px 0 5px;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $white;
+        background-color: $gray-800 !important;
+        border: 1px solid $gray-800 !important;
+        border-radius: .25rem;
+    }
+}
+
+.btn-secondary {
+    color: $white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    &:hover,
+    &:focus,
+    &:active {
+        border: 1px solid $gray-800 !important;
+        border-radius: .25rem;
+    }
+}
+
+.badge-primary,
+.badge-secondary  {
+    color: $white;
+    font-size: 0.7rem;
+	font-weight:500;
+    background: none;
+    border: 1px solid $white;
+}
+.badge-secondary {
+    color: $gray-600;
+    border: 1px solid $gray-600;
+}
+
+
+footer li {
+    margin-bottom: 5px;
+    @media(min-width:768px) {
+        margin-bottom: 0;
+    }
+}

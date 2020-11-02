@@ -1,0 +1,16 @@
+
+
+
+<div class="col mb-4 post-preview">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">{{ post.title }}</h4>
+            <p class="card-text">{{ post.subtitle }}</p>
+            <p class="card-tags">{{ post.tags | join: " &middot; " }}</p>
+        </div>
+
+        <div class="card-footer">
+            <a class="btn btn-link stretched-link style="float: right;" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Read more<i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,100 @@
+
+#mainNav {
+	margin-bottom:0;
+	border-bottom:1px solid rgba(255,255,255,.3);
+	text-transform:uppercase;
+    font-size:13px;
+}
+#mainNav .dropdown-item {
+	font-size:13px;
+    text-transform: none;
+}
+#mainNav .navbar-nav > li.nav-item > a{
+	font-size:13px;
+    font-weight:normal;
+}
+
+#mainNav .navbar-brand {
+	font-size:20px;
+	text-transform:none;
+	letter-spacing:1px;
+    font-weight:normal;
+}
+#mainNav .navbar-brand:focus {
+	outline:0;
+}
+#mainNav .navbar-brand .navbar-toggle {
+	padding:4px 6px;
+	font-size:16px;
+	color:#fff;
+}
+#mainNav .navbar-brand .navbar-toggle:focus,#mainNav .navbar-brand .navbar-toggle:active {
+	outline:0;
+}
+.nav-link {
+	padding-right:1rem;
+	padding-left:1rem;
+}
+.nav-link a {
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+.nav-link:hover {
+	outline:0;
+	color:#1ba39c;
+	background-color:transparent;
+}
+.nav-link:focus,.nav-link:active {
+	outline:0;
+	background-color:transparent;
+}
+.nav-link.active {
+	outline:0;
+}
+.nav-link.active {
+	color:#1ba39c;
+}
+.nav-link.active:hover {
+	color:#1ba39c;
+}
+@media(min-width:768px) {
+	#mainNav {
+        border-bottom:0;
+        font-size:13px;
+        background:0 0;
+        -webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition:background .5s ease-in-out,padding .5s ease-in-out;
+        transition:background .5s ease-in-out,padding .5s ease-in-out;
+	}
+	#mainNav.top-nav-collapse {
+		padding:1px 0;
+		border-bottom:1px solid rgba(255,255,255,.3);
+		color:#333;
+		background:#fff;
+	}
+	#mainNav.top-nav-collapse a {
+        color:#333;
+        display:inline-block;
+	}
+	.navbar-expand-md #mainNav.navbar-nav .nav-link {
+		padding-right:1rem;
+		padding-left:1rem;
+	}
+	.dropdown-menu {
+		border:1px solid rgba(0,0,0,0.03);
+	}
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    color: #212529;
+    text-align: inherit;
+    background-color: transparent;
+    border: 0;
+}
+

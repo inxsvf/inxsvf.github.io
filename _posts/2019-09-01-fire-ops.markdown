@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Fire Ops"
+subtitle: "A design challenge to help firefighters"
+date:   2019-09-01 21:11:24 +0000
+categories: jekyll update
+type: project
+
+company: (Contest) Designathon by PortoUX Group
+tags: ["2-Day Sprint", "Desktop App", "Critical Systems", "User Research", "Rapid Prototyping"]
+---
+
+Member of a 5-person team that accepted a 2-day Challenge to develop a concept for a software that would help a fictional National Firefight Division managing fire operations around rural areas. I mainly contribute to the information architecture of this prototype.
+
+<!-- with activities to synthesize knowledge, generate ideas and validating the wireflows. -->
+
+The methodology used was loosely based on [Google Design Sprint](https://www.gv.com/sprint/). 
+
+Firstly we tried to **understand** the problem. We collected information primarily by interviewing firefighters. Then we described the problem: its objective, its needs, the steps taken in a firefight operation, the people involved with it <a href="#research" class="ref">1</a>.
+
+<figure>
+    <img id="research" class="md-img" src="/imgs/fire-ops/notes.jpeg" alt="">
+    <figcaption><strong>Fig. 1</strong> This diagram sums up the information collected. The three columns represent the stages of a fire operation - recall, action and monitorization - and they list the tasks and resources used for each stage. In small yellow post-its are represented potiential problems that can occur (e.g. vehicles running out of gas). On the bottom, is listed useful data/indicators that should be available by the system.</figcaption>
+</figure>
+
+Then, we started to **define** and **sketch** the system. Define its goals and target users, the main features, its limitations, use-scenarios and personas. We also performed a group exercise of brainstorming the system UI, then we discussed and listed our ideas and created a moodboard.
+
+<figure>
+    <img id="sketch" src="/imgs/fire-ops/sketch.jpg" alt="">
+    <figcaption><strong>Fig. 2</strong> Some of the materials produced: sketches and requirements of the software.</figcaption>
+</figure>
+
+We had to **decide** what we would prototype. Instead of focusing on one of the previous ideas, we used them as a complement to a new concept.
+
+As all of us had attended a lecture about airplane control design, we had learned that though an aircraft cockpit control is complex, only a few indicators and controls are important and common to all kinds of aircrafts.
+
+In our project, we thought about which would be the most important indicators when managing a fire operation.
+
+We selected the following three items <a href="#indicators" class="ref">3</a>:
+- Number and location of endangered people;
+- Where and how many resources have been allocated; 
+- The line of fire (power and direction).
+
+<figure>
+    <img id="indicators" src="/imgs/fire-ops/indicators.jpg" alt="">
+    <figcaption><strong>Fig. 3</strong> Sketches of the initial idea for the main indicators and a medium-fidelity version of them. The indicators are: fire direction, endangered people and resources allocated.</figcaption>
+</figure>
+
+Next step was **prototipyng** our solution. We decided what features should go on the main screen, and which ones on secondary ones. We were divided in two groups, to start “pair-prototyping” the different screens on Figma. While the prototype was evolving, one of us would check if the prototype made sense, and if a problem or a new idea was found we would discuss it, and redo/implement it. The elements we agreed that wouldn’t be changing another member would start a hi-fi version of them.
+
+When we finished the first version of the prototype, it was time to **TEST & ADJUST** it. We couldn’t find any potential users available, so we performed usability tests with people present in the event. We had to redo some screens and find a middle ground between too much text and little explanatory screens.
+
+The solution proposed assumed that this National Firefight Division had access to all the data available by the forces that may be involved (Firefighters, Medical Services, ..). The main feature consists of suggesting actions to take accordingly the data gathered. For example, based on location, number of povoations around, fire and wind direction the system suggests the number and type of units to be sent in order to close the traffic, evacuate the surroundings, and help firefighting <a href="#prototype" class="ref">4</a>. Note that many of these suggestions do not need a “highly intelligent system”, it can start with a set of basic rules and constraints that trigger warnings, that would grow while developing it.
+
+<figure>
+    <img id="prototype" class="lg-img" src="/imgs/fire-ops/prototype.jpg" alt="">
+    <figcaption>
+        <strong>Fig. 4</strong> These are the main screens of our solution - Medium and Hi-fi versions. 
+        <br/>
+        The left-most column lists the locations of different fires.
+        <br/>
+        The middle one, shows the live view of the situation at the fire site: you can choose between a map or text. The text view also shows a timeline of events.
+        <br/>
+        The right-most column shows the critical information: the three indicators and a list of notifications. These notifications can be either messages received by in loco units or system suggestions. A click on them pops up a window with the suggested “Action Plan” with its objectives explained - the suggestion can be customized.
+    </figcaption>
+</figure>
+
+## Conclusion and Learning Points
+
+These were very tiring but fun days, some of the highlights of being part of this project were:
+- Learning about Google Design Sprint methodology, and that its website is a good resource for unblocking exercises;
+- It is important to keep an open and curious mind, as solutions in other areas could guide us solving our problems;
+- Dealing with people under stress due a very short timeline was hard to handle: on the last day some of us were working by ourselves to improve the prototype without the group’s agreement, which led to frustration when it had to be changed substantially.
+
+<figure>
+    <img id="group" src="/imgs/fire-ops/group.jpg" alt="">
+    <figcaption><strong>Fig. 5</strong> The team, from left to right: <a href="https://www.linkedin.com/in/daniela-gomes">Daniela</a>, <a href="https://tiagoqueiros.com">Tiago</a>, myself,  <a href="https://www.linkedin.com/in/mila-dias/">Mila</a> and <a href="https://www.linkedin.com/in/gayacorreia/">Gaya</a>. We've won the 3rd place! 😄</figcaption>
+</figure>

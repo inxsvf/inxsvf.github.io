@@ -1,0 +1,39 @@
+---
+layout: post 
+title:  "Bolos"
+subtitle: "An healthy game"
+date:   2010-01-01 21:11:24 +0000
+categories: jekyll update
+type: project
+
+company: (Assignment) Videogames
+tags: ["Desktop", "Game Design", "Programming"]
+---
+
+Member of a 2-person team whose task was to develop a desktop videogame. My main contributions were in creating and improving the concept and creating the UI elements.
+
+The story is about a character that doesn’t like to eat vegetables nor to exercise. One day he got stuck in a dream full of candy, pastries and other sweet things. But the candy were evil, and he wanted to get out of that nightmare.
+
+<figure>
+    <div class="row">
+        <div class="col-sm-6"><img src="/imgs/bolos/initial.png" alt=""></div>
+        <div class="col-sm-6"><img src="/imgs/bolos/level.png" alt=""></div>
+    </div>
+    <figcaption><strong>Fig. 1</strong> Screenshots of the game: main screen and first level.</figcaption>
+</figure>
+
+Every enemy attack makes the player fatter and slower <a href="#attack" class="ref">2</a>. To get into shape he needs to exercise <a href="#exercise" class="ref">3</a>. Fruit and vegetables can give the player special attacks and immunity.
+
+
+<figure>
+    <img id="attack" class="gif" src="/imgs/bolos/attack.gif" alt="">
+    <figcaption><strong>Fig. 2</strong> Berliner attacking the player with custard untill the player explodes.
+</figcaption>
+</figure>
+
+<figure>
+    <img id="exercise" class="gif" src="/imgs/bolos/rope.gif" alt="">
+    <figcaption><strong>Fig. 3</strong>  When the player grabs the item “rope“, he can exercise and lose weight.</figcaption>
+</figure>
+
+The game and its visuals were very simple as it was an exercise. Some of the sprites used were adapted from existing games.
