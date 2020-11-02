@@ -10,9 +10,11 @@ company: (Contest) Designathon by PortoUX Group
 tags: ["2-Day Sprint", "Desktop App", "Critical Systems", "User Research", "Rapid Prototyping"]
 ---
 
-Member of a 5-person team that accepted a 2-day Challenge to develop a concept for a software that would help a fictional National Firefight Division managing fire operations around rural areas.
+Member of a 5-person team that accepted a 2-day Challenge to develop a concept for a software that would help a fictional National Firefight Division managing fire operations around rural areas. I mainly contribute to the information architecture of this prototype.
 
-The methodology used was loosely based on [Google Design Sprint](https://www.gv.com/sprint/).
+<!-- with activities to synthesize knowledge, generate ideas and validating the wireflows. -->
+
+The methodology used was loosely based on [Google Design Sprint](https://www.gv.com/sprint/). 
 
 Firstly we tried to **understand** the problem. We collected information primarily by interviewing firefighters. Then we described the problem: its objective, its needs, the steps taken in a firefight operation, the people involved with it <a href="#research" class="ref">1</a>.
 

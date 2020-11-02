@@ -14,7 +14,7 @@ It was requested to develop a project - with no restrictions - by starting from 
 
 It was decided to go for a mobile application where users could share images and short videos about what they love about their city. Besides the app, it was also thought to have a different kind of interaction with other “urban walkers“ that used digital CIP/MUPI’s1 in strategic points of the city.
 
-To help the definition of the scope of the project and its own development it was used different techniques for idea generation from E. Lupton’s “Graphic Design Thinking” <a href="#exercise" class="ref">1</a>.
+To help the definition of the scope of the project and its own development it was used different techniques for idea generation from [E. Lupton’s “Graphic Design Thinking”](https://ellenlupton.com/Graphic-Design-Thinking) <a href="#exercise" class="ref">1</a>.
 
 <figure>
     <div id="exercise" class="row">
