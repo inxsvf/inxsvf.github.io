@@ -2,7 +2,8 @@
 layout: post-alt 
 title:  "Self-Order App"
 subtitle: "No more lines in restaurants"
-date:   2019-02-01 21:11:24 +0000
+date:   2020-02-01 21:11:24 +0000
+create-date:   2019-02-01 21:11:24 +0000
 categories: jekyll update
 type: case-study
 

@@ -18,7 +18,7 @@ layout: default
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
             <p class="meta">
-            {{ page.date | date: '%b, %Y' }}
+            {{ page.create-date | date: '%b, %Y' }}
             </p>
             <p>{% for tag in page.tags limit : 5 %}
               <span class="badge badge-pill badge-primary">{{tag}}</span>
