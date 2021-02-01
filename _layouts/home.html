@@ -28,34 +28,21 @@ layout: default
 
         {{ content }}
 
-        <article class="featured-post">
-            <div class="card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                          <img class="card-img"
-                          src="../imgs/soa.jpg"
-                          alt="The beautiful MDN logo.">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                          <h4 class="card-title">Self-Order App</h4>
-                          <p class="card-text">From Concept to Prototype</p>
-                          <p class="card-tags">Mobile App &middot; User Research &middot; Information Architecture</p>
-                          <a class="btn btn-secondary" href="https://docs.google.com/presentation/d/1I-TtQUzkzB1zT7MBC7ITj-T-d9MVEIJOoF5ZW1Pd7sE/edit#slide=id.g6b8df46747_0_10">
-                            <i class="fab fa-google-drive"></i>Read Case Study</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-        </article>
+        {% assign cases = site.posts | where: "type", "case-study" %}
+        {% for post in cases %}
+          {% include case-preview.html %}
+        {% endfor %}
         
         <div class="row row-cols-1 row-cols-md-2">
-          {% for post in site.posts limit : 5 %}
+          {% assign projects = site.posts | where: "type", "project" %}
+          {% for post in projects %}
             {% include post-preview.html %}
           {% endfor %}
         </div>
-<br/>
+
+        <br/>
         <hr/>
+
       </div>
     </div>
   </div>

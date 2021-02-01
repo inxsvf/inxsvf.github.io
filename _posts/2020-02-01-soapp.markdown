@@ -1,0 +1,22 @@
+---
+layout: post-alt 
+title:  "Self-Order App"
+subtitle: "No more lines in restaurants"
+date:   2020-02-01 21:11:24 +0000
+create-date:   2019-02-01 21:11:24 +0000
+categories: jekyll update
+type: case-study
+
+tags: ["Mobile", "User Research", "Information Architecture"]
+---
+
+This Case Study is about a project where I had to present a problem and develop solution. The result is "Self-Order App".
+
+The Self-Order App chooses the best lunch meal for its users. The suggestion is presented, and the user just needs to click a button to order it, after a while the user can collect it at the restaurant. 
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRqmqKa7UgoP9ZMuSHZdqQ_HKHPrBA5-dcfhlaUDvcVLNUiEceezCEmeD7WMsHYdJx1uPwVPS7qad-O/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<a class="btn btn-link" href="https://docs.google.com/presentation/d/1I-TtQUzkzB1zT7MBC7ITj-T-d9MVEIJOoF5ZW1Pd7sE/edit#slide=id.g6b8df46747_0_10">
+<i class="fab fa-google-drive"></i>View in Google Slides</a>

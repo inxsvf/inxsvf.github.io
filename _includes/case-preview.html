@@ -1,0 +1,19 @@
+<article class="featured-post">
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                  <img class="card-img"
+                  src="../imgs/soa.jpg"
+                  alt="The beautiful MDN logo.">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                  <h4 class="card-title">{{ post.title }}</h4>
+                  <p class="card-text">{{ post.subtitle }}</p>
+                  <p class="card-tags">{{ post.tags | join: " &middot; " }}</p>
+                  <a class="btn btn-secondary stretched-link" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">View Case Study</a>
+              </div>
+            </div>
+        </div>
+      </div>
+</article>

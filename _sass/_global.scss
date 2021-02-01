@@ -48,7 +48,7 @@ sup a {
     }
 }
 
-.btn > i {
+.btn-link > i {
     padding: 0 5px;
 }
 
@@ -92,6 +92,7 @@ sup a {
     color: $white;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    margin-bottom: 5px;
     &:hover,
     &:focus,
     &:active {
@@ -111,12 +112,4 @@ sup a {
 .badge-secondary {
     color: $gray-600;
     border: 1px solid $gray-600;
-}
-
-
-footer li {
-    margin-bottom: 5px;
-    @media(min-width:768px) {
-        margin-bottom: 0;
-    }
 }
