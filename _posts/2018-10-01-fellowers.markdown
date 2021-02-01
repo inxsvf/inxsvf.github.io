@@ -10,7 +10,7 @@ company: (Assignment) User Interface Design
 tags: ["Mobile Game", "Inclusive Design", "Visual Design", "Web Programming"]
 ---
 
-Member of a 3-person team that had to develop a concept and interface for a mobile game for older adults. I was responsible mostly for the UI elements and concept.
+Member of a 3-person team that had to develop a concept and interface for a mobile game for older adults. I was responsible mostly for the concept and UI elements.
 
 Loneliness is a problem known for older people, so we tried to help by creating a virtual companion. Taking inspiration from [Tamagotchi](https://tamagotchi.com/) and [Mountain](http://mountain-game.com/), we proposed a game where the player should take care of a talking flower and watch it grow within a calm and meditative environment - a mixture between a simulator and ambient game.
 
@@ -24,17 +24,20 @@ The player should keep the flower alive and happy, by regularly performing a set
 
 <figure>
     <div class="row">
-        <img class="col-sm-6" src="/imgs/fellowers/ui-daylight-buttons.png" alt="">
-        <img class="col-sm-6" src="/imgs/fellowers/ui-moonlight.png" alt="">
+        <img class="col-sm-6 h-100" src="/imgs/fellowers/ui-daylight-buttons.png" alt="">
+        <img class="col-sm-6 h-100" src="/imgs/fellowers/ui-moonlight.png" alt="">
     </div>
-    <figcaption><strong>Fig. 2</strong> Hi-fi mockups of the game. There are two buttons: one to water the plant, other to move it indoors (or outdoors). The background and the flower change accordingly to time of the day and the weather of the player’s location.</figcaption>
+    <figcaption><strong>Fig. 2</strong> Hi-fi mockups of the game. There are two buttons: one to water the plant, other to move it indoors (or outdoors). The background and the flower change accordingly to time of the day and the weather of the player's location.</figcaption>
 </figure>
 
 When these actions do not take place as often as necessary, the plant begins to wither, and can die in case of total abandonment (though later it would regrow).
 
 <figure>
     <img class="lg-img" src="/imgs/fellowers/wires.svg" alt="">
-    <figcaption><strong>Fig. 3</strong> Game wireflow with low and medium-fi screens of the game. When the plant starts to wither, its form and colours change. As it is floating on the screen, it also starts to go down. This means it is not healthy and needs help. When the player ignores these signs for a long time, the plant will ask him directly for help. The plant can also start a conversation with the player just to have his attention. It can ask him open-answer questions or multiple-choice ones.</figcaption>
+    <figcaption> <strong>Fig. 3</strong> Game wireflow (system actions represented as black arrows and user actions as orange arrows): <br/>
+    - When the plant starts to wither, it means it needs help (watering). If the player ignores these signs for a long time, the plant will ask him directly for help. <br/>
+    - The plant can also start a conversation with the player just to have his attention. It can ask him open-answer questions or multiple-choice ones.</figcaption>
+    <!-- Game wireflow with low and medium-fi screens of the game. When the plant starts to wither, its form and colours change. As it is floating on the screen, it also starts to go down. This means it is not healthy and needs help. When the player ignores these signs for a long time, the plant will ask him directly for help. The plant can also start a conversation with the player just to have his attention. It can ask him open-answer questions or multiple-choice ones. -->
 </figure>
 
 ## Conclusion and Learning Points
@@ -47,5 +50,5 @@ Our strategy was to keep things simple, and aimed to a minimalist design. It evo
 
 <figure>
     <img class="md-img" src="/imgs/fellowers/poster.jpg" alt="">
-    <figcaption><strong>Fig. 4</strong> Poster presented at <a href="https://vj2018.fba.up.pt">Videojogos 2018 - 10th Conference on Videogame Sciences and Art</a> with <a href="https://www.linkedin.com/in/claudia-gomes-profile/">Cláudia</a> and <a href="https://www.linkedin.com/in/gayacorreia/">Gaya</a></figcaption>. 
+    <figcaption><strong>Fig. 4</strong> Poster presented at <a href="https://vj2018.fba.up.pt">Videojogos 2018 - 10th Conference on Videogame Sciences and Art</a> with <a href="https://www.linkedin.com/in/claudia-gomes-profile/">Cláudia</a> and <a href="https://www.linkedin.com/in/gayacorreia/">Gaya</a>. </figcaption>
 </figure>

@@ -117,11 +117,11 @@ a.reversefootnote {
         font-size: 1.1rem;
         text-decoration: none;
         color: $primary;
-        &::before {
-            content: '(Fig. ';
+        &:hover {
+            text-decoration: underline;
         }
-        &::after {
-            content: ')';
+        &::before {
+            content: 'Fig. ';
         }
     }
 
